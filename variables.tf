@@ -35,16 +35,18 @@ variable "public_ip_prefix_id" {
 
 variable "diagnostics_map" {
   description = "(Required) Storage account and Event Hub for the IP address diagnostics"  
-
+  default     = null
 }
 
 variable "log_analytics_workspace_id" {
   description = "(Required) Log Analytics ID for the IP address diagnostics"
+  default     = null
   
 }
 
 variable "diagnostics_settings" {
- description = "(Required) Map with the diagnostics settings for public IP deployment"
+  description = "(Required) Map with the diagnostics settings for public IP deployment"
+  default     = null
 }
 
 

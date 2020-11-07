@@ -1,3 +1,4 @@
+/*
 resource "azurerm_monitor_diagnostic_setting" "diagnostics" {
   for_each                          = azurerm_public_ip.public_ip
 
@@ -39,4 +40,4 @@ resource "azurerm_monitor_diagnostic_setting" "diagnostics" {
   }
 }  
 
-
+*/
