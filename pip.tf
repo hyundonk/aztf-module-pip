@@ -11,7 +11,7 @@ resource "azurerm_public_ip" "public_ip" {
   sku                   = var.sku 
 
 	public_ip_prefix_id   = var.public_ip_prefix_id
-  
+  availability_zone	= "No-Zone"
   tags                  = var.tags
 }
 
